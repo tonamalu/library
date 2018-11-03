@@ -1,5 +1,6 @@
 VERSION 5.00
 Begin VB.Form Login 
+   BackColor       =   &H00C0C0C0&
    BorderStyle     =   4  'Fixed ToolWindow
    Caption         =   "Login"
    ClientHeight    =   2955
@@ -14,7 +15,7 @@ Begin VB.Form Login
    ShowInTaskbar   =   0   'False
    StartUpPosition =   1  'CenterOwner
    Begin VB.Frame Frame1 
-      BackColor       =   &H8000000A&
+      BackColor       =   &H00E0E0E0&
       BorderStyle     =   0  'None
       Height          =   4095
       Left            =   0

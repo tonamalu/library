@@ -69,11 +69,11 @@ Begin VB.Form changepass
             Italic          =   0   'False
             Strikethrough   =   0   'False
          EndProperty
-         Height          =   735
-         Left            =   4800
+         Height          =   555
+         Left            =   3660
          TabIndex        =   1
-         Top             =   3960
-         Width           =   2415
+         Top             =   3720
+         Width           =   2475
       End
       Begin VB.Label Label3 
          BackStyle       =   0  'Transparent

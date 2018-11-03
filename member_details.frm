@@ -366,6 +366,7 @@ Begin VB.Form Member_Details
             Width           =   1455
          End
          Begin VB.ComboBox Combo1 
+            Appearance      =   0  'Flat
             BeginProperty Font 
                Name            =   "Palatino Linotype"
                Size            =   12
@@ -376,9 +377,9 @@ Begin VB.Form Member_Details
                Strikethrough   =   0   'False
             EndProperty
             Height          =   450
-            Left            =   3960
+            Left            =   4320
+            Style           =   2  'Dropdown List
             TabIndex        =   4
-            Text            =   "(Select)"
             Top             =   360
             Width           =   3015
          End
@@ -489,6 +490,7 @@ Private Sub Form_Load()
     Wend
     rs.Close
     Command5.Enabled = False
+    
 End Sub
 
 

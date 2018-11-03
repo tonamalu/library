@@ -3,31 +3,31 @@ Object = "{CDE57A40-8B86-11D0-B3C6-00A0C90AEA82}#1.0#0"; "MSDATGRD.OCX"
 Begin VB.Form Fine_details 
    BorderStyle     =   4  'Fixed ToolWindow
    Caption         =   "Fine"
-   ClientHeight    =   6105
+   ClientHeight    =   4605
    ClientLeft      =   45
    ClientTop       =   390
-   ClientWidth     =   14355
+   ClientWidth     =   13935
    LinkTopic       =   "Form1"
    MaxButton       =   0   'False
    MDIChild        =   -1  'True
    MinButton       =   0   'False
-   ScaleHeight     =   6105
-   ScaleWidth      =   14355
+   ScaleHeight     =   4605
+   ScaleWidth      =   13935
    ShowInTaskbar   =   0   'False
    Begin VB.Frame Frame1 
       Appearance      =   0  'Flat
       BackColor       =   &H80000005&
       ForeColor       =   &H80000008&
-      Height          =   6015
+      Height          =   4635
       Left            =   0
       TabIndex        =   0
       Top             =   0
-      Width           =   14295
+      Width           =   13995
       Begin MSDataGridLib.DataGrid DataGrid2 
          Height          =   2535
          Left            =   120
          TabIndex        =   3
-         Top             =   1680
+         Top             =   1020
          Width           =   13695
          _ExtentX        =   24156
          _ExtentY        =   4471
@@ -99,10 +99,10 @@ Begin VB.Form Fine_details
             Strikethrough   =   0   'False
          EndProperty
          Height          =   615
-         Left            =   9840
+         Left            =   12240
          TabIndex        =   2
-         Top             =   5160
-         Width           =   1335
+         Top             =   3900
+         Width           =   1575
       End
       Begin VB.Label Label1 
          Appearance      =   0  'Flat
@@ -119,7 +119,7 @@ Begin VB.Form Fine_details
          EndProperty
          ForeColor       =   &H80000008&
          Height          =   495
-         Left            =   5160
+         Left            =   5970
          TabIndex        =   1
          Top             =   480
          Width           =   2415
