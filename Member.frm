@@ -85,9 +85,9 @@ Begin VB.Form Member
    End
    Begin VB.Frame Frame1 
       Appearance      =   0  'Flat
-      BackColor       =   &H00E0E0E0&
+      BackColor       =   &H00FFFFFF&
       Caption         =   "Member Details "
-      ForeColor       =   &H80000008&
+      ForeColor       =   &H00400000&
       Height          =   7095
       Left            =   -60
       TabIndex        =   0
@@ -140,7 +140,7 @@ Begin VB.Form Member
          EndProperty
          Height          =   495
          Left            =   5220
-         TabIndex        =   15
+         TabIndex        =   9
          Top             =   6240
          Width           =   1335
       End
@@ -195,7 +195,7 @@ Begin VB.Form Member
          ForeColor       =   &H80000008&
          Height          =   495
          Left            =   420
-         TabIndex        =   14
+         TabIndex        =   15
          Top             =   5280
          Width           =   2055
       End
@@ -216,7 +216,7 @@ Begin VB.Form Member
          ForeColor       =   &H80000008&
          Height          =   495
          Left            =   360
-         TabIndex        =   13
+         TabIndex        =   14
          Top             =   4680
          Width           =   2055
       End
@@ -237,7 +237,7 @@ Begin VB.Form Member
          ForeColor       =   &H80000008&
          Height          =   495
          Left            =   360
-         TabIndex        =   12
+         TabIndex        =   13
          Top             =   4080
          Width           =   2055
       End
@@ -258,7 +258,7 @@ Begin VB.Form Member
          ForeColor       =   &H80000008&
          Height          =   495
          Left            =   360
-         TabIndex        =   11
+         TabIndex        =   12
          Top             =   2940
          Width           =   2055
       End
@@ -279,7 +279,7 @@ Begin VB.Form Member
          ForeColor       =   &H80000008&
          Height          =   495
          Left            =   360
-         TabIndex        =   10
+         TabIndex        =   11
          Top             =   2040
          Width           =   2055
       End
@@ -300,7 +300,7 @@ Begin VB.Form Member
          ForeColor       =   &H80000008&
          Height          =   495
          Left            =   360
-         TabIndex        =   9
+         TabIndex        =   10
          Top             =   1080
          Width           =   2055
       End
