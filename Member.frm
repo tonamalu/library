@@ -2,16 +2,16 @@ VERSION 5.00
 Begin VB.Form Member 
    BorderStyle     =   1  'Fixed Single
    Caption         =   "Member Details"
-   ClientHeight    =   7890
+   ClientHeight    =   6990
    ClientLeft      =   45
    ClientTop       =   390
-   ClientWidth     =   9090
+   ClientWidth     =   8130
    LinkTopic       =   "Form1"
    MaxButton       =   0   'False
    MDIChild        =   -1  'True
    MinButton       =   0   'False
-   ScaleHeight     =   7890
-   ScaleWidth      =   9090
+   ScaleHeight     =   6990
+   ScaleWidth      =   8130
    Begin VB.TextBox mem_gender 
       Appearance      =   0  'Flat
       BeginProperty Font 
@@ -24,9 +24,9 @@ Begin VB.Form Member
          Strikethrough   =   0   'False
       EndProperty
       Height          =   495
-      Left            =   4800
-      TabIndex        =   13
-      Top             =   5880
+      Left            =   4860
+      TabIndex        =   11
+      Top             =   5340
       Width           =   3015
    End
    Begin VB.TextBox mem_type 
@@ -41,9 +41,9 @@ Begin VB.Form Member
          Strikethrough   =   0   'False
       EndProperty
       Height          =   495
-      Left            =   4800
-      TabIndex        =   12
-      Top             =   5160
+      Left            =   4860
+      TabIndex        =   10
+      Top             =   4680
       Width           =   3015
    End
    Begin VB.TextBox mem_phone 
@@ -58,10 +58,10 @@ Begin VB.Form Member
          Strikethrough   =   0   'False
       EndProperty
       Height          =   450
-      Left            =   4800
+      Left            =   4860
       MaxLength       =   10
-      TabIndex        =   11
-      Top             =   4485
+      TabIndex        =   9
+      Top             =   4065
       Width           =   3015
    End
    Begin VB.TextBox mem_per 
@@ -75,11 +75,11 @@ Begin VB.Form Member
          Italic          =   0   'False
          Strikethrough   =   0   'False
       EndProperty
-      Height          =   615
-      Left            =   4800
+      Height          =   915
+      Left            =   4860
       MultiLine       =   -1  'True
-      TabIndex        =   10
-      Top             =   3720
+      TabIndex        =   8
+      Top             =   3000
       Width           =   3015
    End
    Begin VB.TextBox mem_local 
@@ -93,22 +93,31 @@ Begin VB.Form Member
          Italic          =   0   'False
          Strikethrough   =   0   'False
       EndProperty
-      Height          =   735
-      Left            =   4800
+      Height          =   795
+      Left            =   4860
       MultiLine       =   -1  'True
-      TabIndex        =   9
-      Top             =   2880
+      TabIndex        =   7
+      Top             =   2160
       Width           =   3015
    End
    Begin VB.Frame Frame1 
       Appearance      =   0  'Flat
       BackColor       =   &H00E0E0E0&
+      Caption         =   "Member Details "
       ForeColor       =   &H80000008&
-      Height          =   7935
-      Left            =   0
+      Height          =   7095
+      Left            =   -60
       TabIndex        =   0
       Top             =   0
-      Width           =   9135
+      Width           =   8175
+      Begin VB.TextBox mem_name 
+         Appearance      =   0  'Flat
+         Height          =   435
+         Left            =   4920
+         TabIndex        =   15
+         Top             =   1200
+         Width           =   3015
+      End
       Begin VB.CommandButton exit 
          Caption         =   "Exit"
          BeginProperty Font 
@@ -121,9 +130,9 @@ Begin VB.Form Member
             Strikethrough   =   0   'False
          EndProperty
          Height          =   495
-         Left            =   5640
-         TabIndex        =   16
-         Top             =   7080
+         Left            =   6600
+         TabIndex        =   14
+         Top             =   6300
          Width           =   1335
       End
       Begin VB.CommandButton clear 
@@ -138,9 +147,9 @@ Begin VB.Form Member
             Strikethrough   =   0   'False
          EndProperty
          Height          =   495
-         Left            =   4200
-         TabIndex        =   15
-         Top             =   7080
+         Left            =   5280
+         TabIndex        =   13
+         Top             =   6300
          Width           =   1215
       End
       Begin VB.CommandButton add 
@@ -155,28 +164,10 @@ Begin VB.Form Member
             Strikethrough   =   0   'False
          EndProperty
          Height          =   495
-         Left            =   2400
-         TabIndex        =   14
-         Top             =   7080
+         Left            =   3720
+         TabIndex        =   12
+         Top             =   6300
          Width           =   1455
-      End
-      Begin VB.TextBox mem_name 
-         Appearance      =   0  'Flat
-         BorderStyle     =   0  'None
-         BeginProperty Font 
-            Name            =   "Palatino Linotype"
-            Size            =   12
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
-         Height          =   405
-         Left            =   4800
-         TabIndex        =   8
-         Top             =   2160
-         Width           =   3015
       End
       Begin VB.Label Label8 
          Appearance      =   0  'Flat
@@ -193,11 +184,11 @@ Begin VB.Form Member
             Strikethrough   =   0   'False
          EndProperty
          ForeColor       =   &H80000008&
-         Height          =   375
+         Height          =   495
          Left            =   360
-         TabIndex        =   7
-         Top             =   6120
-         Width           =   1455
+         TabIndex        =   6
+         Top             =   4800
+         Width           =   2055
       End
       Begin VB.Label Label7 
          Appearance      =   0  'Flat
@@ -214,11 +205,11 @@ Begin VB.Form Member
             Strikethrough   =   0   'False
          EndProperty
          ForeColor       =   &H80000008&
-         Height          =   375
+         Height          =   495
          Left            =   360
-         TabIndex        =   6
-         Top             =   5400
-         Width           =   1815
+         TabIndex        =   5
+         Top             =   4200
+         Width           =   2055
       End
       Begin VB.Label Label6 
          Appearance      =   0  'Flat
@@ -235,11 +226,11 @@ Begin VB.Form Member
             Strikethrough   =   0   'False
          EndProperty
          ForeColor       =   &H80000008&
-         Height          =   375
+         Height          =   495
          Left            =   360
-         TabIndex        =   5
-         Top             =   4560
-         Width           =   1935
+         TabIndex        =   4
+         Top             =   3600
+         Width           =   2055
       End
       Begin VB.Label Label5 
          Appearance      =   0  'Flat
@@ -258,8 +249,8 @@ Begin VB.Form Member
          ForeColor       =   &H80000008&
          Height          =   495
          Left            =   360
-         TabIndex        =   4
-         Top             =   3840
+         TabIndex        =   3
+         Top             =   2520
          Width           =   2055
       End
       Begin VB.Label Label4 
@@ -277,11 +268,11 @@ Begin VB.Form Member
             Strikethrough   =   0   'False
          EndProperty
          ForeColor       =   &H80000008&
-         Height          =   375
+         Height          =   495
          Left            =   360
-         TabIndex        =   3
-         Top             =   3000
-         Width           =   1695
+         TabIndex        =   2
+         Top             =   1680
+         Width           =   2055
       End
       Begin VB.Label Label3 
          Appearance      =   0  'Flat
@@ -300,30 +291,9 @@ Begin VB.Form Member
          ForeColor       =   &H80000008&
          Height          =   495
          Left            =   360
-         TabIndex        =   2
-         Top             =   2160
-         Width           =   2055
-      End
-      Begin VB.Label Label1 
-         Appearance      =   0  'Flat
-         BackColor       =   &H80000005&
-         BackStyle       =   0  'Transparent
-         Caption         =   "Member Details"
-         BeginProperty Font 
-            Name            =   "Palatino Linotype"
-            Size            =   15.75
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
-         ForeColor       =   &H80000008&
-         Height          =   615
-         Left            =   3000
          TabIndex        =   1
-         Top             =   720
-         Width           =   2655
+         Top             =   1080
+         Width           =   2055
       End
    End
 End
