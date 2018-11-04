@@ -3,19 +3,19 @@ Begin VB.Form Login
    BackColor       =   &H00C0C0C0&
    BorderStyle     =   4  'Fixed ToolWindow
    Caption         =   "Login"
-   ClientHeight    =   2955
+   ClientHeight    =   2655
    ClientLeft      =   45
    ClientTop       =   390
-   ClientWidth     =   5655
+   ClientWidth     =   5475
    LinkTopic       =   "Form2"
    MaxButton       =   0   'False
    MinButton       =   0   'False
-   ScaleHeight     =   2955
-   ScaleWidth      =   5655
+   ScaleHeight     =   2655
+   ScaleWidth      =   5475
    ShowInTaskbar   =   0   'False
    StartUpPosition =   1  'CenterOwner
    Begin VB.Frame Frame1 
-      BackColor       =   &H00E0E0E0&
+      BackColor       =   &H00404040&
       BorderStyle     =   0  'None
       Height          =   4095
       Left            =   0
@@ -23,6 +23,7 @@ Begin VB.Form Login
       Top             =   0
       Width           =   7935
       Begin VB.TextBox TextBox2 
+         Alignment       =   2  'Center
          Appearance      =   0  'Flat
          BorderStyle     =   0  'None
          BeginProperty Font 
@@ -35,29 +36,30 @@ Begin VB.Form Login
             Strikethrough   =   0   'False
          EndProperty
          Height          =   420
-         Left            =   1860
+         Left            =   1620
          TabIndex        =   2
-         Top             =   1680
+         Top             =   1260
          Width           =   3375
       End
       Begin VB.CommandButton Command1 
          Caption         =   "Login"
          BeginProperty Font 
-            Name            =   "Palatino Linotype"
-            Size            =   14.25
+            Name            =   "Calibri"
+            Size            =   12
             Charset         =   0
             Weight          =   700
             Underline       =   0   'False
             Italic          =   0   'False
             Strikethrough   =   0   'False
          EndProperty
-         Height          =   555
-         Left            =   3840
-         TabIndex        =   6
-         Top             =   2280
+         Height          =   405
+         Left            =   2940
+         TabIndex        =   5
+         Top             =   1980
          Width           =   1395
       End
       Begin VB.TextBox TextBox1 
+         Alignment       =   2  'Center
          Appearance      =   0  'Flat
          BorderStyle     =   0  'None
          BeginProperty Font 
@@ -70,9 +72,9 @@ Begin VB.Form Login
             Strikethrough   =   0   'False
          EndProperty
          Height          =   420
-         Left            =   1860
+         Left            =   1620
          TabIndex        =   1
-         Top             =   1020
+         Top             =   600
          Width           =   3375
       End
       Begin VB.Label Label3 
@@ -81,19 +83,19 @@ Begin VB.Form Login
          BackStyle       =   0  'Transparent
          Caption         =   "Password"
          BeginProperty Font 
-            Name            =   "Palatino Linotype"
+            Name            =   "Calibri"
             Size            =   12
             Charset         =   0
-            Weight          =   400
+            Weight          =   700
             Underline       =   0   'False
             Italic          =   0   'False
             Strikethrough   =   0   'False
          EndProperty
-         ForeColor       =   &H80000001&
+         ForeColor       =   &H00FFFFFF&
          Height          =   375
-         Left            =   480
-         TabIndex        =   5
-         Top             =   1680
+         Left            =   240
+         TabIndex        =   4
+         Top             =   1260
          Width           =   1455
       End
       Begin VB.Label Label2 
@@ -102,41 +104,20 @@ Begin VB.Form Login
          BackStyle       =   0  'Transparent
          Caption         =   "Username"
          BeginProperty Font 
-            Name            =   "Palatino Linotype"
+            Name            =   "Calibri"
             Size            =   12
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
-         ForeColor       =   &H80000001&
-         Height          =   375
-         Left            =   480
-         TabIndex        =   4
-         Top             =   1020
-         Width           =   1455
-      End
-      Begin VB.Label Label1 
-         Appearance      =   0  'Flat
-         BackColor       =   &H00C0C0C0&
-         BackStyle       =   0  'Transparent
-         Caption         =   "LOGIN"
-         BeginProperty Font 
-            Name            =   "Palatino Linotype"
-            Size            =   15.75
             Charset         =   0
             Weight          =   700
             Underline       =   0   'False
             Italic          =   0   'False
             Strikethrough   =   0   'False
          EndProperty
-         ForeColor       =   &H80000001&
+         ForeColor       =   &H00FFFFFF&
          Height          =   375
-         Left            =   2460
+         Left            =   240
          TabIndex        =   3
-         Top             =   150
-         Width           =   1335
+         Top             =   600
+         Width           =   1455
       End
    End
 End
