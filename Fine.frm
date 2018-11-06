@@ -215,6 +215,7 @@ Begin VB.Form Fine
             EndProperty
             Height          =   450
             Left            =   2760
+            Style           =   2  'Dropdown List
             TabIndex        =   15
             Top             =   480
             Width           =   2775

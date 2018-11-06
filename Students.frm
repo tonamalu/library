@@ -2,16 +2,16 @@ VERSION 5.00
 Begin VB.Form Students 
    BorderStyle     =   4  'Fixed ToolWindow
    Caption         =   "Book Issue"
-   ClientHeight    =   7830
+   ClientHeight    =   5820
    ClientLeft      =   45
    ClientTop       =   390
-   ClientWidth     =   13920
+   ClientWidth     =   12720
    LinkTopic       =   "Form2"
    MaxButton       =   0   'False
    MDIChild        =   -1  'True
    MinButton       =   0   'False
-   ScaleHeight     =   7830
-   ScaleWidth      =   13920
+   ScaleHeight     =   5820
+   ScaleWidth      =   12720
    ShowInTaskbar   =   0   'False
    Begin VB.Frame Frame1 
       Appearance      =   0  'Flat
@@ -34,9 +34,9 @@ Begin VB.Form Students
             Strikethrough   =   0   'False
          EndProperty
          Height          =   495
-         Left            =   6840
+         Left            =   7440
          TabIndex        =   30
-         Top             =   6360
+         Top             =   5160
          Width           =   1215
       End
       Begin VB.CommandButton Command4 
@@ -51,9 +51,9 @@ Begin VB.Form Students
             Strikethrough   =   0   'False
          EndProperty
          Height          =   495
-         Left            =   10680
+         Left            =   11280
          TabIndex        =   29
-         Top             =   6360
+         Top             =   5160
          Width           =   1335
       End
       Begin VB.CommandButton Command3 
@@ -68,19 +68,19 @@ Begin VB.Form Students
             Strikethrough   =   0   'False
          EndProperty
          Height          =   495
-         Left            =   8640
+         Left            =   9240
          TabIndex        =   28
-         Top             =   6360
+         Top             =   5160
          Width           =   1815
       End
       Begin VB.Frame Frame3 
          Appearance      =   0  'Flat
          BackColor       =   &H80000005&
          ForeColor       =   &H80000008&
-         Height          =   4095
+         Height          =   4215
          Left            =   6480
          TabIndex        =   14
-         Top             =   2040
+         Top             =   720
          Width           =   6135
          Begin VB.TextBox Text4 
             Appearance      =   0  'Flat
@@ -319,10 +319,10 @@ Begin VB.Form Students
             Strikethrough   =   0   'False
          EndProperty
          ForeColor       =   &H80000008&
-         Height          =   4215
+         Height          =   4275
          Left            =   240
          TabIndex        =   2
-         Top             =   1920
+         Top             =   660
          Width           =   6135
          Begin VB.CommandButton Command1 
             Caption         =   "Click"
@@ -370,6 +370,7 @@ Begin VB.Form Students
             EndProperty
             Height          =   450
             Left            =   2400
+            Style           =   2  'Dropdown List
             TabIndex        =   7
             Top             =   600
             Width           =   2535
@@ -386,6 +387,7 @@ Begin VB.Form Students
             EndProperty
             Height          =   450
             Left            =   2400
+            Style           =   2  'Dropdown List
             TabIndex        =   6
             Top             =   2040
             Width           =   2535
@@ -559,7 +561,7 @@ Begin VB.Form Students
          Height          =   495
          Left            =   5520
          TabIndex        =   1
-         Top             =   840
+         Top             =   300
          Width           =   2415
       End
    End

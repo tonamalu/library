@@ -462,8 +462,8 @@ Begin VB.Form Book_details
             EndProperty
             Height          =   450
             Left            =   4920
+            Style           =   2  'Dropdown List
             TabIndex        =   4
-            Text            =   "(Select)"
             Top             =   360
             Width           =   2535
          End

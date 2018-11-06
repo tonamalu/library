@@ -388,6 +388,7 @@ Begin VB.Form Form1
             EndProperty
             Height          =   450
             Left            =   2400
+            Style           =   2  'Dropdown List
             TabIndex        =   8
             Top             =   2040
             Width           =   2535
@@ -404,6 +405,7 @@ Begin VB.Form Form1
             EndProperty
             Height          =   450
             Left            =   2400
+            Style           =   2  'Dropdown List
             TabIndex        =   5
             Top             =   600
             Width           =   2535

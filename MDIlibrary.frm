@@ -139,7 +139,7 @@ Librarian.Show
 End Sub
 
 Private Sub mnulogin1_Click(Index As Integer)
-Login.Show
+login.Show
 library.Visible = False
 
 End Sub

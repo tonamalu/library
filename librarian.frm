@@ -164,8 +164,8 @@ Begin VB.Form Librarian
             ItemData        =   "librarian.frx":0000
             Left            =   2640
             List            =   "librarian.frx":000D
+            Style           =   2  'Dropdown List
             TabIndex        =   16
-            Text            =   "(Select)"
             Top             =   600
             Width           =   2655
          End
