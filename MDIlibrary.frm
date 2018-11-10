@@ -4,8 +4,8 @@ Begin VB.MDIForm library
    BackColor       =   &H00000040&
    Caption         =   "Library Management"
    ClientHeight    =   9105
-   ClientLeft      =   225
-   ClientTop       =   870
+   ClientLeft      =   165
+   ClientTop       =   810
    ClientWidth     =   19830
    LinkTopic       =   "MDIForm1"
    Picture         =   "MDIlibrary.frx":0000
@@ -17,6 +17,7 @@ Begin VB.MDIForm library
       Begin VB.Menu mnustudent 
          Caption         =   "Student Register"
          Index           =   1
+         Shortcut        =   ^R
       End
       Begin VB.Menu mnumember 
          Caption         =   "Member Information"
@@ -24,10 +25,12 @@ Begin VB.MDIForm library
          Begin VB.Menu mnusearch 
             Caption         =   "Search Member"
             Index           =   4
+            Shortcut        =   ^F
          End
          Begin VB.Menu mnumemberdetails 
             Caption         =   "Members Details"
             Index           =   3
+            Shortcut        =   ^J
          End
       End
    End
@@ -37,14 +40,17 @@ Begin VB.MDIForm library
       Begin VB.Menu mnubookreg 
          Caption         =   "Book Register"
          Index           =   1
+         Shortcut        =   ^B
       End
       Begin VB.Menu mnubookinfo 
          Caption         =   "Book Information"
          Index           =   2
+         Shortcut        =   ^D
       End
       Begin VB.Menu mnuentire 
          Caption         =   "Entire Library Books"
          Index           =   4
+         Shortcut        =   ^G
       End
    End
    Begin VB.Menu mnu 
@@ -53,10 +59,12 @@ Begin VB.MDIForm library
       Begin VB.Menu mnufineinfo 
          Caption         =   "Fine Information"
          Index           =   1
+         Shortcut        =   ^N
       End
       Begin VB.Menu mnustudentfine 
          Caption         =   "Entire Students Fine"
          Index           =   3
+         Shortcut        =   ^S
       End
    End
    Begin VB.Menu mnulibrarian 
@@ -65,10 +73,12 @@ Begin VB.MDIForm library
       Begin VB.Menu mnuchangepass 
          Caption         =   "Change password"
          Index           =   2
+         Shortcut        =   ^P
       End
       Begin VB.Menu mnulibreg 
          Caption         =   "Librarian Registration"
          Index           =   1
+         Shortcut        =   ^H
          Visible         =   0   'False
       End
    End
@@ -86,6 +96,7 @@ Begin VB.MDIForm library
       Begin VB.Menu mnuissue 
          Caption         =   "Return Book"
          Index           =   2
+         Shortcut        =   {F11}
       End
    End
    Begin VB.Menu mnuexit 

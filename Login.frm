@@ -155,6 +155,7 @@ Private Sub login()
     If TextBox1.Text <> "" And TextBox2.Text <> "" Then
     rstuser.Open "select * from login where user_name='" + TextBox1.Text + "'" + "and password='" + TextBox2.Text + "'", con, adOpenDynamic, adLockOptimistic
     If Not rstuser.EOF Then
+    Unload Me
     library.Show
     Else
     MsgBox "wrong username & password", vbExclamation

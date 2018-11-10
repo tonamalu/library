@@ -2,16 +2,16 @@ VERSION 5.00
 Begin VB.Form Book_details 
    BorderStyle     =   4  'Fixed ToolWindow
    Caption         =   "Form1"
-   ClientHeight    =   7530
+   ClientHeight    =   6450
    ClientLeft      =   45
    ClientTop       =   390
-   ClientWidth     =   13530
+   ClientWidth     =   13050
    LinkTopic       =   "Form1"
    MaxButton       =   0   'False
    MDIChild        =   -1  'True
    MinButton       =   0   'False
-   ScaleHeight     =   7530
-   ScaleWidth      =   13530
+   ScaleHeight     =   6450
+   ScaleWidth      =   13050
    ShowInTaskbar   =   0   'False
    Begin VB.TextBox cost 
       Appearance      =   0  'Flat
@@ -25,9 +25,9 @@ Begin VB.Form Book_details
          Strikethrough   =   0   'False
       EndProperty
       Height          =   495
-      Left            =   9600
-      TabIndex        =   23
-      Top             =   5160
+      Left            =   9360
+      TabIndex        =   22
+      Top             =   3960
       Width           =   2535
    End
    Begin VB.TextBox copies 
@@ -42,9 +42,9 @@ Begin VB.Form Book_details
          Strikethrough   =   0   'False
       EndProperty
       Height          =   495
-      Left            =   9600
-      TabIndex        =   22
-      Top             =   4440
+      Left            =   9360
+      TabIndex        =   21
+      Top             =   3240
       Width           =   2535
    End
    Begin VB.TextBox isbn_no 
@@ -59,25 +59,26 @@ Begin VB.Form Book_details
          Strikethrough   =   0   'False
       EndProperty
       Height          =   495
-      Left            =   3600
-      TabIndex        =   16
-      Top             =   3000
+      Left            =   3360
+      TabIndex        =   15
+      Top             =   1680
       Width           =   2295
    End
    Begin VB.Frame Frame1 
       Appearance      =   0  'Flat
       BackColor       =   &H80000005&
+      Caption         =   "Book details"
       ForeColor       =   &H80000008&
-      Height          =   7455
+      Height          =   6375
       Left            =   0
       TabIndex        =   0
       Top             =   0
-      Width           =   13455
+      Width           =   12975
       Begin VB.CommandButton Command6 
          Caption         =   "Cancel"
          BeginProperty Font 
-            Name            =   "Palatino Linotype"
-            Size            =   12
+            Name            =   "Arial Narrow"
+            Size            =   11.25
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
@@ -85,16 +86,16 @@ Begin VB.Form Book_details
             Strikethrough   =   0   'False
          EndProperty
          Height          =   615
-         Left            =   8280
-         TabIndex        =   28
-         Top             =   6600
+         Left            =   9840
+         TabIndex        =   27
+         Top             =   5400
          Width           =   1335
       End
       Begin VB.CommandButton Command5 
          Caption         =   "Delete"
          BeginProperty Font 
-            Name            =   "Palatino Linotype"
-            Size            =   12
+            Name            =   "Arial Narrow"
+            Size            =   11.25
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
@@ -102,16 +103,16 @@ Begin VB.Form Book_details
             Strikethrough   =   0   'False
          EndProperty
          Height          =   615
-         Left            =   6240
-         TabIndex        =   27
-         Top             =   6600
+         Left            =   7800
+         TabIndex        =   26
+         Top             =   5400
          Width           =   1215
       End
       Begin VB.CommandButton Command4 
          Caption         =   "Active"
          BeginProperty Font 
-            Name            =   "Palatino Linotype"
-            Size            =   12
+            Name            =   "Arial Narrow"
+            Size            =   11.25
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
@@ -119,16 +120,16 @@ Begin VB.Form Book_details
             Strikethrough   =   0   'False
          EndProperty
          Height          =   615
-         Left            =   4320
-         TabIndex        =   26
-         Top             =   6600
+         Left            =   5880
+         TabIndex        =   25
+         Top             =   5400
          Width           =   1335
       End
       Begin VB.CommandButton Command3 
          Caption         =   "Edit"
          BeginProperty Font 
-            Name            =   "Palatino Linotype"
-            Size            =   12
+            Name            =   "Arial Narrow"
+            Size            =   11.25
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
@@ -136,16 +137,16 @@ Begin VB.Form Book_details
             Strikethrough   =   0   'False
          EndProperty
          Height          =   615
-         Left            =   2400
-         TabIndex        =   25
-         Top             =   6600
+         Left            =   3960
+         TabIndex        =   24
+         Top             =   5400
          Width           =   1335
       End
       Begin VB.CommandButton Command2 
          Caption         =   "View"
          BeginProperty Font 
-            Name            =   "Palatino Linotype"
-            Size            =   12
+            Name            =   "Arial Narrow"
+            Size            =   11.25
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
@@ -153,9 +154,9 @@ Begin VB.Form Book_details
             Strikethrough   =   0   'False
          EndProperty
          Height          =   615
-         Left            =   600
-         TabIndex        =   24
-         Top             =   6600
+         Left            =   2160
+         TabIndex        =   23
+         Top             =   5400
          Visible         =   0   'False
          Width           =   1215
       End
@@ -164,10 +165,10 @@ Begin VB.Form Book_details
          BackColor       =   &H80000005&
          ForeColor       =   &H80000008&
          Height          =   3735
-         Left            =   6840
-         TabIndex        =   7
-         Top             =   2520
-         Width           =   6135
+         Left            =   6600
+         TabIndex        =   6
+         Top             =   1320
+         Width           =   6015
          Begin VB.TextBox edition 
             Appearance      =   0  'Flat
             BeginProperty Font 
@@ -181,7 +182,7 @@ Begin VB.Form Book_details
             EndProperty
             Height          =   495
             Left            =   2760
-            TabIndex        =   21
+            TabIndex        =   20
             Top             =   1080
             Width           =   2535
          End
@@ -198,7 +199,7 @@ Begin VB.Form Book_details
             EndProperty
             Height          =   495
             Left            =   2760
-            TabIndex        =   20
+            TabIndex        =   19
             Top             =   360
             Width           =   2535
          End
@@ -207,8 +208,8 @@ Begin VB.Form Book_details
             BackColor       =   &H80000005&
             Caption         =   "Cost"
             BeginProperty Font 
-               Name            =   "Palatino Linotype"
-               Size            =   12
+               Name            =   "Arial"
+               Size            =   11.25
                Charset         =   0
                Weight          =   400
                Underline       =   0   'False
@@ -218,7 +219,7 @@ Begin VB.Form Book_details
             ForeColor       =   &H80000008&
             Height          =   375
             Left            =   240
-            TabIndex        =   15
+            TabIndex        =   14
             Top             =   2640
             Width           =   1455
          End
@@ -227,8 +228,8 @@ Begin VB.Form Book_details
             BackColor       =   &H80000005&
             Caption         =   "Copies"
             BeginProperty Font 
-               Name            =   "Palatino Linotype"
-               Size            =   12
+               Name            =   "Arial"
+               Size            =   11.25
                Charset         =   0
                Weight          =   400
                Underline       =   0   'False
@@ -238,7 +239,7 @@ Begin VB.Form Book_details
             ForeColor       =   &H80000008&
             Height          =   495
             Left            =   240
-            TabIndex        =   14
+            TabIndex        =   13
             Top             =   1800
             Width           =   1455
          End
@@ -247,28 +248,8 @@ Begin VB.Form Book_details
             BackColor       =   &H80000005&
             Caption         =   "Edition"
             BeginProperty Font 
-               Name            =   "Palatino Linotype"
-               Size            =   12
-               Charset         =   0
-               Weight          =   400
-               Underline       =   0   'False
-               Italic          =   0   'False
-               Strikethrough   =   0   'False
-            EndProperty
-            ForeColor       =   &H80000008&
-            Height          =   375
-            Left            =   240
-            TabIndex        =   13
-            Top             =   1080
-            Width           =   1335
-         End
-         Begin VB.Label Label7 
-            Appearance      =   0  'Flat
-            BackColor       =   &H80000005&
-            Caption         =   "Publisher"
-            BeginProperty Font 
-               Name            =   "Palatino Linotype"
-               Size            =   12
+               Name            =   "Arial"
+               Size            =   11.25
                Charset         =   0
                Weight          =   400
                Underline       =   0   'False
@@ -279,6 +260,26 @@ Begin VB.Form Book_details
             Height          =   375
             Left            =   240
             TabIndex        =   12
+            Top             =   1080
+            Width           =   1335
+         End
+         Begin VB.Label Label7 
+            Appearance      =   0  'Flat
+            BackColor       =   &H80000005&
+            Caption         =   "Publisher"
+            BeginProperty Font 
+               Name            =   "Arial"
+               Size            =   11.25
+               Charset         =   0
+               Weight          =   400
+               Underline       =   0   'False
+               Italic          =   0   'False
+               Strikethrough   =   0   'False
+            EndProperty
+            ForeColor       =   &H80000008&
+            Height          =   375
+            Left            =   240
+            TabIndex        =   11
             Top             =   360
             Width           =   1335
          End
@@ -288,9 +289,9 @@ Begin VB.Form Book_details
          BackColor       =   &H80000005&
          ForeColor       =   &H80000008&
          Height          =   3735
-         Left            =   480
-         TabIndex        =   6
-         Top             =   2520
+         Left            =   240
+         TabIndex        =   5
+         Top             =   1320
          Width           =   6255
          Begin VB.TextBox author 
             Appearance      =   0  'Flat
@@ -305,7 +306,7 @@ Begin VB.Form Book_details
             EndProperty
             Height          =   495
             Left            =   3120
-            TabIndex        =   19
+            TabIndex        =   18
             Top             =   2640
             Width           =   2295
          End
@@ -322,7 +323,7 @@ Begin VB.Form Book_details
             EndProperty
             Height          =   495
             Left            =   3120
-            TabIndex        =   18
+            TabIndex        =   17
             Top             =   1920
             Width           =   2295
          End
@@ -339,7 +340,7 @@ Begin VB.Form Book_details
             EndProperty
             Height          =   495
             Left            =   3120
-            TabIndex        =   17
+            TabIndex        =   16
             Top             =   1200
             Width           =   2295
          End
@@ -359,7 +360,7 @@ Begin VB.Form Book_details
             ForeColor       =   &H80000008&
             Height          =   495
             Left            =   240
-            TabIndex        =   11
+            TabIndex        =   10
             Top             =   2760
             Width           =   1815
          End
@@ -368,28 +369,8 @@ Begin VB.Form Book_details
             BackColor       =   &H80000005&
             Caption         =   "Name of the Book"
             BeginProperty Font 
-               Name            =   "Palatino Linotype"
-               Size            =   12
-               Charset         =   0
-               Weight          =   400
-               Underline       =   0   'False
-               Italic          =   0   'False
-               Strikethrough   =   0   'False
-            EndProperty
-            ForeColor       =   &H80000008&
-            Height          =   495
-            Left            =   240
-            TabIndex        =   10
-            Top             =   1920
-            Width           =   2295
-         End
-         Begin VB.Label Label4 
-            Appearance      =   0  'Flat
-            BackColor       =   &H80000005&
-            Caption         =   "Subject"
-            BeginProperty Font 
-               Name            =   "Palatino Linotype"
-               Size            =   12
+               Name            =   "Arial"
+               Size            =   11.25
                Charset         =   0
                Weight          =   400
                Underline       =   0   'False
@@ -400,16 +381,16 @@ Begin VB.Form Book_details
             Height          =   495
             Left            =   240
             TabIndex        =   9
-            Top             =   1200
-            Width           =   1335
+            Top             =   1920
+            Width           =   2295
          End
-         Begin VB.Label Label3 
+         Begin VB.Label Label4 
             Appearance      =   0  'Flat
             BackColor       =   &H80000005&
-            Caption         =   "ISBN Number"
+            Caption         =   "Subject"
             BeginProperty Font 
-               Name            =   "Palatino Linotype"
-               Size            =   12
+               Name            =   "Arial"
+               Size            =   11.25
                Charset         =   0
                Weight          =   400
                Underline       =   0   'False
@@ -420,60 +401,16 @@ Begin VB.Form Book_details
             Height          =   495
             Left            =   240
             TabIndex        =   8
-            Top             =   480
-            Width           =   1815
+            Top             =   1200
+            Width           =   1335
          End
-      End
-      Begin VB.Frame Frame2 
-         Appearance      =   0  'Flat
-         BackColor       =   &H80000005&
-         ForeColor       =   &H80000008&
-         Height          =   975
-         Left            =   480
-         TabIndex        =   2
-         Top             =   1320
-         Width           =   12495
-         Begin VB.CommandButton Command1 
-            Caption         =   "Search"
-            BeginProperty Font 
-               Name            =   "Palatino Linotype"
-               Size            =   12
-               Charset         =   0
-               Weight          =   400
-               Underline       =   0   'False
-               Italic          =   0   'False
-               Strikethrough   =   0   'False
-            EndProperty
-            Height          =   495
-            Left            =   9120
-            TabIndex        =   5
-            Top             =   360
-            Width           =   1575
-         End
-         Begin VB.ComboBox Combo1 
-            BeginProperty Font 
-               Name            =   "Palatino Linotype"
-               Size            =   12
-               Charset         =   0
-               Weight          =   400
-               Underline       =   0   'False
-               Italic          =   0   'False
-               Strikethrough   =   0   'False
-            EndProperty
-            Height          =   450
-            Left            =   4920
-            Style           =   2  'Dropdown List
-            TabIndex        =   4
-            Top             =   360
-            Width           =   2535
-         End
-         Begin VB.Label Label2 
+         Begin VB.Label Label3 
             Appearance      =   0  'Flat
             BackColor       =   &H80000005&
-            Caption         =   "Book Number"
+            Caption         =   "ISBN Number"
             BeginProperty Font 
-               Name            =   "Palatino Linotype"
-               Size            =   12
+               Name            =   "Arial"
+               Size            =   11.25
                Charset         =   0
                Weight          =   400
                Underline       =   0   'False
@@ -483,30 +420,74 @@ Begin VB.Form Book_details
             ForeColor       =   &H80000008&
             Height          =   495
             Left            =   240
+            TabIndex        =   7
+            Top             =   480
+            Width           =   1815
+         End
+      End
+      Begin VB.Frame Frame2 
+         Appearance      =   0  'Flat
+         BackColor       =   &H80000005&
+         ForeColor       =   &H80000008&
+         Height          =   975
+         Left            =   240
+         TabIndex        =   1
+         Top             =   240
+         Width           =   12375
+         Begin VB.CommandButton Command1 
+            Caption         =   "Search"
+            BeginProperty Font 
+               Name            =   "Calibri"
+               Size            =   11.25
+               Charset         =   0
+               Weight          =   400
+               Underline       =   0   'False
+               Italic          =   0   'False
+               Strikethrough   =   0   'False
+            EndProperty
+            Height          =   495
+            Left            =   8880
+            TabIndex        =   4
+            Top             =   240
+            Width           =   1575
+         End
+         Begin VB.ComboBox Combo1 
+            BeginProperty Font 
+               Name            =   "Calibri"
+               Size            =   11.25
+               Charset         =   0
+               Weight          =   400
+               Underline       =   0   'False
+               Italic          =   0   'False
+               Strikethrough   =   0   'False
+            EndProperty
+            Height          =   390
+            Left            =   4920
+            Style           =   2  'Dropdown List
             TabIndex        =   3
+            Top             =   360
+            Width           =   2535
+         End
+         Begin VB.Label Label2 
+            Appearance      =   0  'Flat
+            BackColor       =   &H80000005&
+            Caption         =   "Book Number"
+            BeginProperty Font 
+               Name            =   "Arial Narrow"
+               Size            =   11.25
+               Charset         =   0
+               Weight          =   400
+               Underline       =   0   'False
+               Italic          =   0   'False
+               Strikethrough   =   0   'False
+            EndProperty
+            ForeColor       =   &H80000008&
+            Height          =   495
+            Left            =   240
+            TabIndex        =   2
             Top             =   360
             Width           =   2055
          End
-      End
-      Begin VB.Label Label1 
-         Appearance      =   0  'Flat
-         BackColor       =   &H80000005&
-         Caption         =   "Book Details"
-         BeginProperty Font 
-            Name            =   "Palatino Linotype"
-            Size            =   15.75
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
-         ForeColor       =   &H80000008&
-         Height          =   495
-         Left            =   5400
-         TabIndex        =   1
-         Top             =   360
-         Width           =   2055
       End
    End
 End
